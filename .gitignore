@@ -22,3 +22,6 @@ out/
 # JVM diagnostics
 *.hprof
 hs_err_pid*
+
+# VSCode IDEA
+.vscode/
