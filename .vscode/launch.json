@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ConcurrentDemo",
+            "request": "launch",
+            "mainClass": "com.thphatts.concurrency.day001.ConcurrentDemo",
+            "projectName": "01-concurrency"
+        },
+        {
+            "type": "java",
+            "name": "SequentialDemo",
+            "request": "launch",
+            "mainClass": "com.thphatts.concurrency.day001.SequentialDemo",
+            "projectName": "01-concurrency"
+        },
+        {
+            "name": "C++ toàn cục — Debug file đang mở",
+            "type": "lldb-dap",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "Build C++ file with clang++",
+            "console": "integratedTerminal"
+        }
+    ]
+}
