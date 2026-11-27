@@ -7,8 +7,8 @@ public class Main {
         System.out.println("Current thread: " + current.getName());
         System.out.println("Current thread ID: " + current.threadId());
         System.out.println("Current thread priority: " + current.getPriority());
-        System.out.println("Is virtula: " + current.isVirtual());
-        System.out.println("Avaible processor: " + Runtime.getRuntime().availableProcessors());
+        System.out.println("Is virtual: " + current.isVirtual());
+        System.out.println("Available processor: " + Runtime.getRuntime().availableProcessors());
         System.out.println("Process ID: " + ProcessHandle.current().pid());
         try {
             Thread.sleep(60_000);

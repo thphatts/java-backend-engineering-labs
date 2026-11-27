@@ -1,7 +1,7 @@
 package com.thphatts.concurrency.day001;
 
 public class ConcurrentDemo {
-    public static void main(String[] agrs) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         OrderTask order1 = new OrderTask("ORD-001");
         OrderTask order2 = new OrderTask("ORD-002");
         OrderTask order3 = new OrderTask("ORD-003");
