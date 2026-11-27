@@ -1,6 +1,5 @@
-package com.thphatts.concurrency;
+package com.thphatts.concurrency.day002;
 
-import com.thphatts.concurrency.day002.OrderWorker;
 import org.junit.jupiter.api.Test;
 
 import java.util.concurrent.TimeUnit;
